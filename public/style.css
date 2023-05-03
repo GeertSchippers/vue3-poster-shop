@@ -367,3 +367,14 @@ body {
         display: none;
     }
 }
+
+.fade-enter-from {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 0.5s;
+}
+[v-cloak]~{
+    display: none !important;
+}
